@@ -1,6 +1,6 @@
 # Personal Website
 
-![image](https://raw.githubusercontent.com/klinker24/personal-site/master/screen_computer.png)
+![image](https://raw.githubusercontent.com/klinker24/klinker24.github.io/master/screen_computer.png)
 
 Because every software engineer should have his own website.
 
