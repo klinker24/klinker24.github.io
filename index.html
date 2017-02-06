@@ -1,119 +1,189 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="resume.appcache">
+
 <head>
-	<title>Luke Klinker</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<meta name="description" content="My Personal Website">
-	<meta name="author" content="Luke Klinker">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="theme-color" content="#009688">
+    <title>Luke Klinker</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Messenger">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#433765">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Luke Klinker">
+    <link rel="shortcut icon" href="resources/images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.teal-pink.min.css">
+    <link rel="stylesheet" href="resources/css/index.css">
+    <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+    <script src="resources/js/index.js"></script>
 </head>
+
 <body>
-<div id="teal_bg"></div>
-<header>
-	<div id="quick_card" class="card">
-		<div id="photo_container">
-			<img id="photo" src="img/photo.jpg" />
-		</div>
-		<div id="description_container">
-			<h1 id="name">Lucas Klinker</h1>
-			<h2 id="description">Software Engineer</h2>
-		</div>
-	</div>
-</header>
-<main>
-<div id="about_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-tachometer"></i>Experience</div>
-		<div class="content">
-			<section class="element"> 
-					<div class="name">Owner and Software Engineer - <a href="http://wwww.klinkerapps.com" target="_blank">Klinker Apps, Inc.</a></div>
-					<div class="info">A <i>Google Play "Top Developer"</i>. I designed, developed, and distributed some of the highest rated and most loved apps on the <i>Google Play Store.</i></div>
-					<div class="date">January 2013 - Now</div>
-			</section>
-			<hr align="left"/>
-			<section class="element"> 
-					<div class="name">Software Engineer - <a href="http://sourceallies.com" target="_blank">Source Allies, Inc</a></div>
-					<div class="info">Worked on a number of projects ranging from <i>Android</i> to the <i>Internet of Things</i> and backend web development in an <i>Agile</i>, <i>Test Driven</i>, team-centric environment.</div>
-					<div class="date">September 2014 - Now</div>
-			</section>
-			<hr align="left"/>
-			<section class="element"> 
-					<div class="name"><a href="https://github.com/klinker24" target="_blank">Github</a></a></div>
-					<div class="info">My numerous open-source libraries, applications, and contributions for <i>Android</i>, <i>iOS</i>, the <i>Internet of Things</i>, and the backend/frontend of the web.</div>
-			</section>
-		</div>
-	</section>
-	<section class="tab">
-		<div class="title"><i class="fa fa-suitcase"></i>Some of my Projects</div>
-		<div class="content">
-			<section class="element"> 
-				<div class="name">Talon for Twitter - <a href="http://talon.klinkerapps.com" target="_blank">Google Play Store</a></div>
-				<div class="info">Talon is my popular Twitter client. It is an Android app that grew faster than any third party Twitter app in history.</div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">Pulse SMS (Phone/Tablet/Web) - <a href="https://play.google.com/store/apps/details?id=xyz.klinker.messenger" target="_blank">Google Play Store</a></div>
-				<div class="info">A sleek text messaging replacement with amazing layouts and animations, that also allows you to text from any of your devices, not just your phone!</div>
-				<div class="info">With Pulse, we also built a high performance, scalable, REST backend (with Ruby on Rails) as well as a JavaScript-based web client application. The project is completely secure with encryption on all ends of the data.</div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">EvolveSMS - <a href="http://evolve.klinkerapps.com" target="_blank">Google Play Store</a></div>
-				<div class="info">A text messaging replacement for the power users. All the features you never knew you needed, total customization, and a whole lot of options.</div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">Blur Launcher - <a href="http://blur.klinkerapps.com" target="_blank">Google Play Store</a></div>
-				<div class="info">Klinker Apps introduction onto your homescreen. The most powerful homescreen to date. Fast, easy, and customizable.</div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">Source News Reader - <a href="http://source.klinkerapps.com" target="_blank">Google Play Store</a></div>
-				<div class="info">The best content on the web at your fingertips. Simple, smooth, fast. All your news, all in one place.</div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">Internet of Things - <a href="https://plus.google.com/+LukeKlinker/posts/LAYqAsLAiwp" target="_blank">Magic Mirror</a></div>
-				<div class="info">A simple bathroom mirror that can do so much more. Weather, news, calendar events, notifications, time, all immediately available.</div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name"><a href="http://hannah-lucas.klinker.xyz" target="_blank">Wedding Website</a> - A Ruby on Rails Application</div>
-				<div class="info">The website I used for my own wedding. Manage event details, invites, groups, RSVPs, and more, all in an easy to use, beautiful package.</div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">The <a href="https://github.com/klinker-apps/klinker-apps.github.io" target="_blank">Klinker Apps</a> Website</div>
-				<div class="info">To show off all our best work.</div>
-			</section>
-		</div>
-	</section>
-	<section class="tab">
-		<div class="title"><i class="fa fa-graduation-cap"></i>Education</div>
-		<div class="content">
-			<section class="element">
-				<div class="name">University of Iowa</div>
-				<div class="date">Computer Engineering with a Software Focus (August 2012 - May 2016)</div>
-			</section>
-		</div>
-	</section>
-</div>
-<div id="contact_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-envelope"></i>Contact</div>
-		<div class="content">
-			<div class="contacts"><a href="mailto:luke@klinker.xyz"><i class="fa fa-envelope"></i>&nbsp; E-Mail</a></div>
-			<div class="contacts"><a href="https://plus.google.com/+LukeKlinker" target="_blank"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></div>
-			<div class="contacts"><a href="http://www.klinkerapps.com" target="_blank"><i class="fa fa-globe"></i>&nbsp; Klinker Apps</a></div>
-		</div>
-	</section>
-</div>
-<a href="mailto:luke@klinker.xyz">
-	<div id="fab">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</div>
-</a>
-</main>
+    <div class="mdl-layout mdl-js-layout">
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="header-layout-transparent">
+                    <div class="header-text-container">
+                        <div class="header-text title">Luke Klinker</div>
+                        <div class="header-text subtitle">Engineer, Designer, Consultant, Entrepreneur</div>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="section-container mdl-grid">
+                        <div class="section-title">About Me</div>
+                        <div class="about-content mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet">
+                            <p>
+                                I am a Google Play <i>Top Developer</i> and full-stack engineer with a passion for creating beautiful and powerful Android experiences and open source contributions. Currently, I am working for a consulting company in Des Moines, Iowa, while also managing/growing Klinker Apps portfolio and consulting, for a few start-ups, through my own company.
+                            </p>
+                            <p>
+                                Throughout college, I worked on building out Klinker Apps, along with my twin brother, Jake. Over that time, we designed, built, and managed several highly-successful Android apps and web integrations. We created a name for ourselves among the Android community, as well as tech companies that we consulted with.
+                            </p>
+                            <p>
+                                Have an idea, or, want to talk to me about a new opportunity? Feel free to drop me an email and I will get in touch!
+                            </p>
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                        <img class="circle profile-picture mdl-cell mdl-cell--4-col" src="resources/images/profile.jpg" />
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="section-container mdl-grid">
+                        <div class="section-title">My Latest Projects</div>
+                        <div class="mdl-cell mdl-cell--2-col project-container">
+                            <img class="project-item" src="resources/images/talon.png" />
+                            <div class="project-link"><a class="link" href="https://play.google.com/store/apps/details?id=com.klinker.android.twitter_l" target="_blank"></a></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--2-col project-container">
+                            <img class="project-item" src="resources/images/pulse.png" />
+                            <div class="project-link"><a class="link" href="https://play.google.com/store/apps/details?id=xyz.klinker.messenger" target="_blank"></a></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--2-col project-container">
+                            <img class="project-item" src="resources/images/source.png" />
+                            <div class="project-link"><a class="link" href="https://play.google.com/store/apps/details?id=com.klinker.android.source" target="_blank"></a></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--2-col project-container">
+                            <img class="project-item" src="resources/images/evolve.png" />
+                            <div class="project-link"><a class="link" href="https://play.google.com/store/apps/details?id=com.klinker.android.evolve_sms" target="_blank"></a></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--2-col project-container">
+                            <img class="project-item" src="resources/images/play.png" />
+                            <div class="project-link"><a class="link" href="https://play.google.com/store/apps/dev?id=6337185423976596164" target="_blank"></a></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--2-col project-container">
+                            <img class="project-item" src="resources/images/github.png" />
+                            <div class="project-link"><a class="link" href="https://github.com/klinker24" target="_blank"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="section-container mdl-grid">
+                        <div class="section-title">Work Experience</div>
+                        <div class="circle">
+                            <img class="bullet-point-picture mdl-cell mdl-cell--2-col mdl-cell-4-col-phone" src="resources/images/klinker_apps.png" />
+                        </div>
+                        <div class="education-summary mdl-cell--10-col">
+                            <div class="bullet-point-item light">
+                                <h1>Klinker Apps, Inc: Owner and Engineer</h1>
+                                <h2>January 2013 - Now</h2>
+                                <ul>
+                                    <li>Achieved the distinction of <i>Top Developer</i> on Google Play</li>
+                                    <li>Designed and developed numerous top-selling, multilingual applications, from ground up</li>
+                                    <li>Published and maintained 15 different apps over the past few years with downloads totaling over 4 million</li>
+                                    <li>Created an efficient client-server architecture for running Pulse SMS</li>
+                                    <li>Managed a Jenkins server to bring unit testing and continous integration to all of our products</li>
+                                    <li>Established unique business knowledge, including customer service/support and financial management, through the startup and daily operations of the company</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="circle">
+                            <img class="bullet-point-picture mdl-cell mdl-cell--2-col mdl-cell-4-col-phone" src="resources/images/sensor_tower.png" />
+                        </div>
+                        <div class="education-summary mdl-cell--10-col">
+                            <div class="bullet-point-item light">
+                                <h1>Sensor Tower: Android Software Engineer</h1>
+                                <h2>December 2016 - Now</h2>
+                                <ul>
+                                    <li>Collected and analyzed user data through an Android app</li>
+                                    <li>Maximized user acquisition through the use of A/B testing on the Play Store and event tracking within the app</li>
+                                    <li>Worked alongside Ruby engineers to develop a server and mobile app concurrently</li>
+                                    <li>Designed and implemented APIs in Ruby on Rails that the app could communicate with</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="circle">
+                            <img class="bullet-point-picture mdl-cell mdl-cell--2-col mdl-cell-4-col-phone" src="resources/images/netangel.png" />
+                        </div>
+                        <div class="education-summary mdl-cell--10-col">
+                            <div class="bullet-point-item light">
+                                <h1>NetAngel: Android Software Engineer</h1>
+                                <h2>January 2017 - Now</h2>
+                                <ul>
+                                    <li>Fixed numerous reliablity issues in their existing Android solution</li>
+                                    <li>Documented and taught the team about Android, creating apps, and potential pitfalls for when they take over the app again</li>
+                                    <li>Managed a persistent VPN connection to ensure a safer internet for the company's users</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="circle">
+                            <img class="bullet-point-picture mdl-cell mdl-cell--2-col mdl-cell-4-col-phone" src="resources/images/source_allies.png" />
+                        </div>
+                        <div class="education-summary mdl-cell--10-col">
+                            <div class="bullet-point-item light">
+                                <h1>Source Allies: Software Consultant</h1>
+                                <h2>September 2014 - Now</h2>
+                                <ul>
+                                    <li>Applied software best practices, like test driven development, paired programming, agile development, code coverage, and dependency injection</li>
+                                    <li>Developed important industry skills including project management and code maintainability through testing</li>
+                                    <li>Used AWS to scale, automate, and develop a number of applications</li>
+                                    <li>Communicated with physical devices by implementing RS-232 serial communication protocols</li>
+                                    <li>Implemented applications built for performance, usability, design, and security in the <i>Internet of Things</i></li>
+                                    <li>Solely managed multi-million dollar Android side of project for Ryko Manufacturing</li>
+                                    <li>Worked on the large scale data ingestion model for John Deere, to collect and aggregate data for farmers across the world</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="section-container mdl-grid">
+                        <div class="section-title">Education</div>
+                        <div class="circle">
+                            <img class="bullet-point-picture mdl-cell mdl-cell--2-col mdl-cell-4-col-phone" src="resources/images/uiowa.png" />
+                        </div>
+                        <div class="education-summary mdl-cell--10-col">
+                            <div class="bullet-point-item">
+                                <h1>University of Iowa</h1>
+                                <h2>September 2012 - May 2016</h2>
+                                <ul>
+                                    <li>BSE in computer engineering</li>
+                                    <li>Minor in computer science</li>
+                                    <li>Minor in mathematics</li>
+                                    <li>3.79 GPA</li>
+                                    <li>President of the water polo team</li>
+                                    <li>Presidential scholarship recepient</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-container">
+                        <a href="mailto:luke@klinkerapps.com"><i class="contact-icon fa fa-envelope"></i></a>
+                        <a href="https://github.com/klinker24" target="_blank"><i class="contact-icon fa fa-github"></i></a>
+                        <a href="https://twitter.com/lukeklinker" target="_blank"><i class="contact-icon fa fa-twitter"></i></a>
+                        <a href="https://plus.google.com/u/0/+LukeKlinker" target="_blank"><i class="contact-icon fa fa-google"></i></a>
+                        <a href="https://www.facebook.com/luke.klinker.5" target="_blank"><i class="contact-icon fa fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UCycZgQlj27nwMyGSihghSig/videos" target="_blank"><i class="contact-icon fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
+
 </html>
