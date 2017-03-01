@@ -1,3 +1,7 @@
+a {
+    color: rgb(41,121,255);	
+}
+
 .header-layout-transparent {
     background: url('../images/header.png') center / cover;
     height: 600px;
